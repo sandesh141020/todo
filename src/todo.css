@@ -1,0 +1,23 @@
+.sg{
+    background-color: cornflowerblue;
+    font-size: large;
+    font-weight: bold;
+    height: 50px;
+    margin: 10px auto;
+    width:300px;
+    border-radius:0.8rem
+}
+
+.sg p{
+    padding: 0.8rem;
+    position: relative;
+}
+.sg p span{
+    position: absolute;
+    right:20px;
+    /* transition-duration: 0.8s; */
+}
+.sg p span:hover{
+    color:white
+
+}
